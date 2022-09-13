@@ -1,4 +1,4 @@
-package me.kindcoder.gofdesignpattern.singleton.main;
+package me.kindcoder.gofdesignpattern.singleton.client;
 
 import me.kindcoder.gofdesignpattern.singleton.implement.Singleton;
 
