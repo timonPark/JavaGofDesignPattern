@@ -3,9 +3,9 @@ package me.kindcoder.gofdesignpattern.singleton.implement;
 public class Singleton {
     private Singleton(){}
 
-    public static class SingleTonCreate{
-        public static final Singleton SINGLETON = new Singleton();
-        public static Singleton getSingleton(){
+    private static class SingleTonCreate{
+        private static final Singleton SINGLETON = new Singleton();
+        private static Singleton getSingleton(){
             return SINGLETON;
         }
     }
